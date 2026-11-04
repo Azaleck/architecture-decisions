@@ -2,12 +2,13 @@
 
 An Architecture Decision Record (ADR) is a short note that captures one important technical decision: the context at the time, what was decided, the alternatives, and the consequences.
 
-These ADRs cover the main architecture decisions of HandiExceller's products, which where designed by me, as CTO (May 2021 – October 2026):
+These ADRs cover the main architecture decisions of HandiExceller's products, designed by Melchior Vila, the CTO (May 2021 – October 2026):
 
 - **Br'eye**: a braille-learning device (Raspberry Pi, and Raspberry Pi CM4 + RP2040 for v2) that reads tactile dominoes and answers with audio. I started from an intern's non-Python prototype and redesigned it entirely.
 - **Marble**: a Windows application for braille and accessible computing, usable with NVDA and JAWS, which I started. It plays the same content with the same code as Br'eye.
 
 The ADRs describe design decisions and why they work, not the implementation work around them.
+
 | # | Title | Decision in one line |
 |---|---|---|
 | [0001](0001-creative-user-generated-content.md) | Creative: user-generated content | Teachers build their own lessons and games as synced JSON content, and learner activity is recorded from day one. |
